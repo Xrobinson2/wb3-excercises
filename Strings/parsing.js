@@ -30,8 +30,8 @@ console.log(nameWithoutSpace);
 function parseAndDisplayName() {
   
 
-  let firstPart = name.substring(0, 6);
-  let secondPart = name.substring(7, 11);
+  let firstName = name.substring(0, 6);
+  let lastName = name.substring(7, 11);
 
   let nameDigitString = firstName + lastName;
   return nameDigitString;
