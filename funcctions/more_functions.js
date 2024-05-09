@@ -20,8 +20,8 @@ function displayReceipt(totalDue, amountPaid) {
 
   if (amountPaid < totalDue) {
     let message = "Unpaid balance of " + changeDue;
+    console.log(message);
   }
-  console.log(message);
 }
 
-displayMailingLabel();
+console.log(displayMailingLabel("Xavier","123 Sesame Street","Ellenwood","Texas","00000"));
